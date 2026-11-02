@@ -32,7 +32,7 @@
 - Исходный коммит: `6b5ecc35fc80c8dcac6a490818f089c53a28dd42`.
 - Сообщение: `Add docker-compose for one-click Coolify deploy, bot takes feed address from Coolify`.
 - Локальная рабочая ветка: `work/open-source-research`.
-- Собственный приватный репозиторий: [panconst/open-source-research](https://github.com/panconst/open-source-research). Создан 2 ноября 2026 года с сохранением истории исходника; это отдельный репозиторий, не GitHub-форк.
+- Собственный публичный репозиторий: [panconst/open-source-research](https://github.com/panconst/open-source-research). Создан 2 ноября 2026 года с сохранением истории исходника; это отдельный репозиторий, не GitHub-форк.
 - `origin` указывает на `https://github.com/panconst/open-source-research.git`; текущая ветка `work/open-source-research` синхронизируется с одноимённой веткой в нём и является основной веткой репозитория.
 - `upstream` указывает на репозиторий преподавателя: `https://github.com/vasilievyakov/desk-research-ai-public.git`. Локальная `master` отслеживает `upstream/master`. Обновления исходника получать через `git fetch upstream`, затем отдельно просматривать и интегрировать.
 - Обычный рабочий цикл в этой папке: изменения → `git add` нужных файлов → `git commit` → `git push`. Получить свои опубликованные изменения на другом компьютере: `git pull --ff-only`. Автоматической фоновой синхронизации нет.
